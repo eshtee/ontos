@@ -94,7 +94,7 @@
   },
   "scripts": {
     "dev:frontend": "vite",
-    "dev:backend": "hatch -e dev run dev-backend",
+    "dev:backend": "cd .. && hatch -e dev run dev-backend",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",

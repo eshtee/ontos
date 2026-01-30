@@ -1,0 +1,11 @@
+{"timestamp": "2026-01-30T15:37:32+1100", "level": "INFO", "message": "Audit file logger configured. Logging to: dev.default.audit_logs/audit.log"}
+{"timestamp": "2026-01-30T15:37:56+1100", "level": "INFO", "message": "Audit file logger configured. Logging to: dev.default.audit_logs/audit.log"}
+{"timestamp": "2026-01-30T15:40:02+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "user", "action": "SET_ROLE_OVERRIDE", "success": True, "details": {"role_id": "9dcb9314-da7d-4dfd-8c24-596be7c58a37"}}"}
+{"timestamp": "2026-01-30T15:40:02+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:40:03+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:40:51+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:40:52+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:41:00+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:41:01+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:43:12+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}
+{"timestamp": "2026-01-30T15:43:12+1100", "level": "INFO", "message": "{"user": "localdev", "ip": "127.0.0.1", "feature": "entitlements", "action": "LIST", "success": True, "details": {"params": {}, "persona_count": 6}}"}

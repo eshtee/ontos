@@ -10,7 +10,7 @@ readme = "../README.md"
 authors = [
     { name="Databricks", email="ontos-support@databricks.com" }
 ]
-license = "Databricks License"
+license = {text = "Databricks License"}
 requires-python = ">=3.10,<3.13"
 dynamic = ["dependencies"]
 
@@ -46,7 +46,7 @@ include = [
 
 [tool.hatch.envs.dev.scripts]
 dev-frontend = "yarn dev:frontend"
-dev-backend = "uvicorn --app-dir backend src.app:app --reload --host=0.0.0.0 --port=8000"
+dev-backend = "PYTHONPATH=./backend uvicorn src.app:app --reload --host=0.0.0.0 --port=8000"
 deploy-and-run = [
   'databricks bundle deploy --var="catalog=app_data" --var="schema=app_ontos"',
   "databricks bundle run app_ontos",
