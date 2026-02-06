@@ -29,6 +29,7 @@ src/backend/src/data/cache/
 
 .databricks
 .env
+.env.syed.dbricks
 
 .vscode/settings.json
 audit_logs/
